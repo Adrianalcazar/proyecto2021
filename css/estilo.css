@@ -1,11 +1,19 @@
 html{
 	font-family: sans-serif;
 }
-p {
-    color:green;
-}
+
 address{
 	color: blue;
+}
+body{
+	background:url(../images/cielo.jpeg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+p{
+	margin: 10px;
 }
 #cabecera{   
 	position: absolute;
@@ -28,7 +36,7 @@ address{
 	width: 13%;
 	height: 71%;
 	text-align: center;
-	background-color: transparent;
+	background-color: rgba(0,0,0,0.4);
 
 }
 #anuncio{
@@ -44,6 +52,10 @@ address{
 	left:15%;
 	width: 70%;
 	height:71%;
+	background-color: rgba(0,0,0,0.4);
+	
+}
+
 }
 #pie{
 	position: absolute;
@@ -64,8 +76,9 @@ box-shadow: 2px 2px 2px;
 }
 
 .b{
-    background-color: transparent;
-}
+ 	opacity: 0.5;
+ }
+
 .a{
     background-color:transparent;
 }
@@ -97,7 +110,10 @@ box-shadow: 2px 2px 2px;
 .pagina{
 	opacity: 0,5;
 	top: 0%;
-	height: 90%;
+	height:100%;
 	width: 100%;
-	left: -2%
+}
+.principal{
+	width: 800px;
+	height: 400px;
 }
