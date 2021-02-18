@@ -53,17 +53,10 @@ p{
 	width: 70%;
 	height:71%;
 	background-color: rgba(0,0,0,0.4);
-	
+	background-position: center bottom;
 }
 
-}
-#pie{
-	position: absolute;
-	left:1%;
-	height: 4%;
-	width: 98%;
-	top: 94%;
-}
+
 .banner{
 	height:100%;
 	width:100%;
@@ -71,13 +64,14 @@ p{
 .boton{
 height: 100%;
 min-width: 19.5%;
-background-color: purple;
+background-color: white;
 box-shadow: 2px 2px 2px;
 }
+.boton:hover{
+	background-color:cyan;
+}
 
-.b{
- 	opacity: 0.5;
- }
+
 
 .a{
     background-color:transparent;
@@ -92,7 +86,6 @@ box-shadow: 2px 2px 2px;
 	width: 70px;
 	height: 50px;
 }
-
 .boton2{
 	width: 51%;
 	height: 20%;
@@ -103,17 +96,43 @@ box-shadow: 2px 2px 2px;
 	box-shadow: 7px 7px 3px;
 }
 
+
 .redes{
 	text-align: center;
 	color:black;
 }
-.pagina{
-	opacity: 0,5;
-	top: 0%;
-	height:100%;
-	width: 100%;
-}
+
 .principal{
-	width: 800px;
-	height: 400px;
+	height:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
+.tabla{
+	margin-left: 10%;
+	margin-right: 25%;
+	margin-top:5%;
+	background-color: white;
+	border:2px solid black;
+	border-spacing: 0;
+}
+td{
+	border:1px black solid;
+	border-spacing: 0;
+}
+.imgtabla{
+	width: 165px;
+	height: 100px;
+}
+a{
+	outline: none;
+	text-decoration: none;
+
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+
