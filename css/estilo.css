@@ -136,6 +136,10 @@ a:visited{
 	color:black;
 }
 
-.video{
+.cuestionario{
+	width: 160px;
+}
+form{
 	text-align: center;
+	margin-top: 15%;
 }
